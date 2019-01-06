@@ -1,0 +1,53 @@
+.section-inquiry {
+  background-color: #D4ECEA;
+  padding: 2%;
+
+  img{
+    margin: auto;
+  }
+
+  img.section-inquiry__tel {
+    width: 80%;
+  }
+
+  .section-inquiry__btn{
+    width: 80%;
+    margin: auto;
+    cursor: pointer;
+  }
+
+  .section-inquiry__link{
+    width: 60%;
+    margin: auto;
+    margin-top: 16px;
+    cursor: pointer;
+
+    img{
+      padding: 5px;
+    }
+  }
+}
+
+.section1{
+  position: relative;
+
+  .section1-caption {
+    position: relative;
+    bottom: 30px;
+  }
+
+  .section1-img__02 {
+    width: 50%;
+    max-width: 1500px;
+    margin: auto;
+  }
+
+  p {
+    width: 80%;
+    margin: auto;
+    margin-top: 24px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 29px;
+  }
+}

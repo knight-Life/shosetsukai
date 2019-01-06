@@ -1,0 +1,54 @@
+.section-inquiry {
+  background-color: #D4ECEA;
+  padding: 2%;
+}
+
+.section-inquiry img {
+  margin: auto;
+}
+
+.section-inquiry img.section-inquiry__tel {
+  width: 80%;
+}
+
+.section-inquiry .section-inquiry__btn {
+  width: 80%;
+  margin: auto;
+  cursor: pointer;
+}
+
+.section-inquiry .section-inquiry__link {
+  width: 60%;
+  margin: auto;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.section-inquiry .section-inquiry__link img {
+  padding: 5px;
+}
+
+.section1 {
+  position: relative;
+}
+
+.section1 .section1-caption {
+  position: relative;
+  bottom: 30px;
+}
+
+.section1 .section1-img__02 {
+  width: 50%;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.section1 p {
+  width: 80%;
+  margin: auto;
+  margin-top: 24px;
+  text-align: center;
+  font-size: 17px;
+  line-height: 29px;
+}
+
