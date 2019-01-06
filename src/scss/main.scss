@@ -43,11 +43,255 @@
   }
 
   p {
-    width: 80%;
+    width: 85%;
     margin: auto;
     margin-top: 24px;
     text-align: center;
-    font-size: 17px;
-    line-height: 29px;
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+}
+
+.section2{
+  position: relative;
+  margin-bottom: 80px;
+
+  img{
+    margin: auto;
+  }
+
+  .section2-img__01 {
+    width: 60%;
+    margin-top: 64px;
+    margin-bottom: 32px;
+  }
+
+  .section2-img__02 {
+    width: 85%;
+  }
+
+  .section2-img__point {
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .section2-img__point div {
+    width: 50%;
+    margin: auto;
+  }
+
+  .section2-img__point div p {
+    color: #fff;
+    font-size: 21px;
+    text-align: justify;
+    line-height: 1.3em;
+  }
+
+  .section2-img__point.point1 {
+    top: 23%;
+    p{
+      width: 70%;
+    }
+  }
+
+  .section2-img__point.point2 {
+    top: 51%;
+    p{
+      width: 70%;
+    }
+  }
+
+  .section2-img__point.point3 {
+    top: 75%;
+  }
+}
+
+.section3{
+  background-color: #f4f6f7;
+  padding-bottom: 32px;
+
+  img{
+    margin: auto;
+  }
+
+  .section3-img__01 {
+    width: 60%;
+    padding-top: 64px;
+    margin-bottom: 32px;
+  }
+
+  .section3-img__02 {
+    width: 85%;
+  }
+}
+
+.section4{
+  margin-bottom: 64px;
+
+  img{
+    margin: auto;
+  }
+
+  .section4-img__01 {
+    width: 35%;
+    margin-top: 64px;
+    margin-bottom: 32px;
+  }
+
+  .section4-img__02 {
+    width: 85%;
+  }
+}
+
+.section5{
+  background-color: #f8f7f0;
+  padding-top: 24px;
+  padding-bottom: 64px;
+
+  img{
+    margin: auto;
+  }
+
+  .section5-img__01 {
+    width: 37%;
+    margin-top: 64px;
+    margin-bottom: 32px;
+  }
+  .section5-question{
+    &::before {
+      content: "";
+      display: block;
+      background-image: url(./image/section5/section5_line.png);
+      background-size: contain;
+      height: 8px;
+      width: 85%;
+      margin: auto;
+    }
+
+    &:last-child::after {
+      content: "";
+      display: block;
+      background-image: url(./image/section5/section5_line.png);
+      background-size: contain;
+      height: 8px;
+      width: 85%;
+      margin: auto;
+    }
+
+    li {
+      width: 85%;
+      margin: auto;
+      padding: 16px;
+      font-size: 32px;
+      line-height: 1.5em;
+      color: #595757;
+
+      &:first-child{
+        padding-top: 65px;
+      }
+
+      &:last-child{
+        padding-bottom: 85px;
+      }
+    }
+
+
+    li.section5-question__q {
+      display: flex;
+
+      span{
+        color: #009E96;
+        font-weight: 700;
+        flex: 1;
+      }
+
+      img {
+        display: block;
+        width: 43px;
+        height: 56px;
+        margin: 0;
+        margin-right: 28px;
+      }
+    }
+
+    li.section5-question__a {
+      display: flex;
+
+      span{
+        flex: 1;
+      }
+
+      img {
+        display: block;
+        width: 43px;
+        height: 46px;
+        margin: 0;
+        margin-right: 28px;
+      }
+    }
+
+  }
+}
+
+.section6{
+  margin-bottom: 64px;
+
+  img{
+    margin: auto;
+  }
+
+  iframe {
+    display: block;
+    margin: 64px auto;
+    width: 80%;
+  }
+
+  .section6-img__01 {
+    width: 50%;
+    max-width: 585px;
+    margin-top: 64px;
+    margin-bottom: 32px;
+  }
+
+  .section6-address{
+
+    h2,p {
+      width: 80%;
+      margin: auto;
+      color: #595757;
+    }
+
+    h2 {
+      font-size: 42px;
+      margin-bottom: 24px;
+    }
+
+    p {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #595757;
+  }
+
+  .section6-address__clinic {
+    margin-bottom: 36px;
+  }
+}
+
+footer{
+  height: 44px;
+  background-color: #009e96;
+
+  h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    line-height: 44px;
+    height: 100%;
   }
 }

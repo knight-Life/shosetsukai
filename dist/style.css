@@ -44,11 +44,263 @@
 }
 
 .section1 p {
-  width: 80%;
+  width: 85%;
   margin: auto;
   margin-top: 24px;
   text-align: center;
-  font-size: 17px;
-  line-height: 29px;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.section2 {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.section2 img {
+  margin: auto;
+}
+
+.section2 .section2-img__01 {
+  width: 60%;
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+
+.section2 .section2-img__02 {
+  width: 85%;
+}
+
+.section2 .section2-img__point {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.section2 .section2-img__point div {
+  width: 50%;
+  margin: auto;
+}
+
+.section2 .section2-img__point div p {
+  color: #fff;
+  font-size: 21px;
+  text-align: justify;
+  line-height: 1.3em;
+}
+
+.section2 .section2-img__point.point1 {
+  top: 23%;
+}
+
+.section2 .section2-img__point.point1 p {
+  width: 70%;
+}
+
+.section2 .section2-img__point.point2 {
+  top: 51%;
+}
+
+.section2 .section2-img__point.point2 p {
+  width: 70%;
+}
+
+.section2 .section2-img__point.point3 {
+  top: 75%;
+}
+
+.section3 {
+  background-color: #f4f6f7;
+  padding-bottom: 32px;
+}
+
+.section3 img {
+  margin: auto;
+}
+
+.section3 .section3-img__01 {
+  width: 60%;
+  padding-top: 64px;
+  margin-bottom: 32px;
+}
+
+.section3 .section3-img__02 {
+  width: 85%;
+}
+
+.section4 {
+  margin-bottom: 64px;
+}
+
+.section4 img {
+  margin: auto;
+}
+
+.section4 .section4-img__01 {
+  width: 35%;
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+
+.section4 .section4-img__02 {
+  width: 85%;
+}
+
+.section5 {
+  background-color: #f8f7f0;
+  padding-top: 24px;
+  padding-bottom: 64px;
+}
+
+.section5 img {
+  margin: auto;
+}
+
+.section5 .section5-img__01 {
+  width: 37%;
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+
+.section5 .section5-question::before {
+  content: "";
+  display: block;
+  background-image: url(./image/section5/section5_line.png);
+  background-size: contain;
+  height: 8px;
+  width: 85%;
+  margin: auto;
+}
+
+.section5 .section5-question:last-child::after {
+  content: "";
+  display: block;
+  background-image: url(./image/section5/section5_line.png);
+  background-size: contain;
+  height: 8px;
+  width: 85%;
+  margin: auto;
+}
+
+.section5 .section5-question li {
+  width: 85%;
+  margin: auto;
+  padding: 16px;
+  font-size: 32px;
+  line-height: 1.5em;
+  color: #595757;
+}
+
+.section5 .section5-question li:first-child {
+  padding-top: 65px;
+}
+
+.section5 .section5-question li:last-child {
+  padding-bottom: 85px;
+}
+
+.section5 .section5-question li.section5-question__q {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section5 .section5-question li.section5-question__q span {
+  color: #009E96;
+  font-weight: 700;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.section5 .section5-question li.section5-question__q img {
+  display: block;
+  width: 43px;
+  height: 56px;
+  margin: 0;
+  margin-right: 28px;
+}
+
+.section5 .section5-question li.section5-question__a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section5 .section5-question li.section5-question__a span {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.section5 .section5-question li.section5-question__a img {
+  display: block;
+  width: 43px;
+  height: 46px;
+  margin: 0;
+  margin-right: 28px;
+}
+
+.section6 {
+  margin-bottom: 64px;
+}
+
+.section6 img {
+  margin: auto;
+}
+
+.section6 iframe {
+  display: block;
+  margin: 64px auto;
+  width: 80%;
+}
+
+.section6 .section6-img__01 {
+  width: 50%;
+  max-width: 585px;
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+
+.section6 .section6-address h2, .section6 .section6-address p {
+  width: 80%;
+  margin: auto;
+  color: #595757;
+}
+
+.section6 .section6-address h2 {
+  font-size: 42px;
+  margin-bottom: 24px;
+}
+
+.section6 .section6-address p {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.section6 a {
+  text-decoration: none;
+  color: #595757;
+}
+
+.section6 .section6-address__clinic {
+  margin-bottom: 36px;
+}
+
+footer {
+  height: 44px;
+  background-color: #009e96;
+}
+
+footer h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  line-height: 44px;
+  height: 100%;
 }
 
