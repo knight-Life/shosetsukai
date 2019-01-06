@@ -189,7 +189,7 @@
     &::before {
       content: "";
       display: block;
-      background-image: url(./image/section5/section5_line.png);
+      background-image: url("../image/section5/section5_line.png");
       background-size: contain;
       height: 8px;
       width: 79%;
@@ -209,12 +209,12 @@
         &.section5-question__a{
           line-height: 40px;
         }
-      }
+      } 
 
       &::after {
         content: "";
         display: block;
-        background-image: url(./image/section5/section5_line.png);
+        background-image: url("../image/section5/section5_line.png");
         background-size: contain;
         height: 8px;
         width: 79%;

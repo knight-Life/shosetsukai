@@ -200,7 +200,7 @@
 .section5 ul.section5-question::before {
   content: "";
   display: block;
-  background-image: url(./image/section5/section5_line.png);
+  background-image: url("../image/section5/section5_line.png");
   background-size: contain;
   height: 8px;
   width: 79%;
@@ -222,7 +222,7 @@
 .section5 ul.section5-question:last-child::after {
   content: "";
   display: block;
-  background-image: url(./image/section5/section5_line.png);
+  background-image: url("../image/section5/section5_line.png");
   background-size: contain;
   height: 8px;
   width: 79%;
