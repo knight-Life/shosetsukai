@@ -1,6 +1,9 @@
+@charset "UTF-8";
 .section-inquiry {
   background-color: #D4ECEA;
   padding: 2%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .section-inquiry img {
@@ -97,6 +100,7 @@
 }
 
 .section2 .section2-img__02 {
+  width: 80%;
   max-width: 1000px;
 }
 
@@ -156,7 +160,7 @@
 }
 
 .section3 .section3-img__02 {
-  width: 40%;
+  width: 45%;
   max-width: 960px;
 }
 
@@ -203,7 +207,7 @@
   background-image: url("../image/section5/section5_line.png");
   background-size: contain;
   height: 8px;
-  width: 79%;
+  width: 70%;
   margin: auto;
 }
 
@@ -225,15 +229,15 @@
   background-image: url("../image/section5/section5_line.png");
   background-size: contain;
   height: 8px;
-  width: 79%;
+  width: 70%;
   margin: auto;
 }
 
 .section5 ul.section5-question li {
-  width: 80%;
+  width: 70%;
   margin: auto;
   padding: 16px;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 40px;
   color: #595757;
 }
@@ -303,7 +307,8 @@
 .section6 iframe {
   display: block;
   margin: 64px auto;
-  width: 80%;
+  width: 70%;
+  height: 400px;
 }
 
 .section6 .section6-img__01 {
@@ -313,19 +318,23 @@
   margin-bottom: 32px;
 }
 
+.section6 .section6-address {
+  width: 60%;
+  margin: auto;
+}
+
 .section6 .section6-address h2, .section6 .section6-address p {
-  width: 80%;
   margin: auto;
   color: #595757;
 }
 
 .section6 .section6-address h2 {
-  font-size: 32px;
+  font-size: 30px;
   margin-bottom: 24px;
 }
 
 .section6 .section6-address p {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 16px;
 }
 
@@ -351,3 +360,350 @@ footer h3 {
   height: 100%;
 }
 
+/*メールフォーム*/
+header.header-logo {
+  height: 45px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+header.header-logo img {
+  width: 80%;
+  max-width: 334px;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+.form-section {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+form.mail-form {
+  margin: auto;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input, textarea {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+input[type="text"], input[type="email"] {
+  width: 100%;
+  padding: 8px;
+}
+
+textarea#msg {
+  width: 100%;
+  height: 100px;
+  padding: 8px;
+}
+
+.mail-form__name, .mail-form__mailAdrrs {
+  margin: 24px auto;
+}
+
+.button button {
+  width: 80%;
+  padding: 8px;
+  margin: 16px auto;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: block;
+  background-color: #fff;
+  font-size: 16px;
+  color: #888;
+}
+
+/*メールフォームここまで*/
+@media screen and (max-width: 479px) {
+  .section-inquiry .section-inquiry__tel {
+    margin-bottom: 12px;
+    width: 85%;
+  }
+  .section-inquiry .section-inquiry__tel img.section-inquiry__contact {
+    margin-right: 15px;
+  }
+  .section-inquiry .section-inquiry__btn {
+    width: 85%;
+  }
+  .section-inquiry .section-inquiry__link {
+    width: 80%;
+    margin-top: 8px;
+  }
+  .section1 .section1-img__02 {
+    width: 60%;
+  }
+  .section1 .section1-caption {
+    position: relative;
+    bottom: 15px;
+  }
+  .section1 p {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 1.7em;
+  }
+  .section2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .section2 .section2-img__01 {
+    width: 71%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .section2 .section2-img__02 {
+    width: 88%;
+  }
+  .section3 {
+    padding-bottom: 16px;
+  }
+  .section3 .section3-img__01 {
+    width: 70%;
+    padding-top: 16px;
+    margin-bottom: 16px;
+  }
+  .section3 .section3-img__02 {
+    width: 70%;
+  }
+  .section4 {
+    margin-bottom: 16px;
+  }
+  .section4 .section4-img__01 {
+    width: 40%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .section4 .section4-img__02 {
+    width: 90%;
+  }
+  .section5 {
+    padding-top: 16px;
+  }
+  .section5 .section5-img__01 {
+    width: 43%;
+    margin-top: 0;
+    margin-bottom: 24px;
+  }
+  .section5 ul.section5-question li {
+    width: 80%;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .section5 ul.section5-question li:first-child {
+    padding-top: 20px;
+  }
+  .section5 ul.section5-question li:last-child {
+    padding-bottom: 20px;
+  }
+  .section5 ul.section5-question li.section5-question__q img {
+    width: 24px;
+    height: 33px;
+  }
+  .section5 ul.section5-question li.section5-question__a img {
+    width: 24px;
+    height: 28px;
+  }
+  .section5 ul.section5-question::before {
+    width: 80%;
+  }
+  .section5 ul.section5-question:last-child::before {
+    width: 80%;
+  }
+  .section5 ul.section5-question:last-child li {
+    line-height: 26px;
+  }
+  .section5 ul.section5-question:last-child li.section5-question__a {
+    line-height: 26px;
+  }
+  .section6 iframe {
+    width: 100%;
+    margin: 40px auto;
+    height: 250px;
+  }
+  .section6 .section6-img__01 {
+    width: 60%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .section6 .section6-address {
+    width: 80%;
+  }
+  .section6 .section6-address h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .section6 .section6-address p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  .section-inquiry .section-inquiry__tel {
+    margin-bottom: 12px;
+  }
+  .section-inquiry .section-inquiry__link {
+    width: 75%;
+    margin-top: 8px;
+  }
+  .section1 .section1-caption {
+    position: relative;
+    bottom: 25px;
+  }
+  .section1 p {
+    font-size: 14px;
+    line-height: 1.7em;
+  }
+  .section2 {
+    margin-bottom: 24px;
+  }
+  .section2 .section2-img__01 {
+    margin-top: 32px;
+    margin-bottom: 24px;
+  }
+  .section2 .section2-img__02 {
+    width: 85%;
+  }
+  .section3 .section3-img__01 {
+    padding-top: 32px;
+    margin-bottom: 24px;
+  }
+  .section3 .section3-img__02 {
+    width: 60%;
+  }
+  .section4 {
+    margin-bottom: 32px;
+  }
+  .section4 .section4-img__01 {
+    margin-top: 32px;
+    margin-bottom: 24px;
+  }
+  .section4 .section4-img__02 {
+    width: 80%;
+  }
+  .section5 {
+    margin-bottom: 32px;
+  }
+  .section5 .section5-img__01 {
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+  .section5 ul.section5-question li {
+    width: 80%;
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .section5 ul.section5-question li.section5-question__q img {
+    width: 30px;
+    height: 45px;
+  }
+  .section5 ul.section5-question li.section5-question__a img {
+    width: 29px;
+    height: 34px;
+  }
+  .section5 ul.section5-question::before {
+    width: 80%;
+  }
+  .section5 ul.section5-question:last-child::before {
+    width: 80%;
+  }
+  .section6 iframe {
+    width: 100%;
+    margin: 40px auto;
+    height: 300px;
+  }
+  .section6 .section6-address {
+    width: 80%;
+  }
+  .section6 .section6-address h2 {
+    font-size: 22px;
+    margin-bottom: 18px;
+  }
+  .section6 .section6-address p {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 959px) {
+  .section-inquiry .section-inquiry__link {
+    width: 65%;
+  }
+  .section1 p {
+    width: 90%;
+    font-size: 16px;
+    line-height: 1.6em;
+  }
+  .section2 {
+    position: relative;
+    margin-bottom: 56px;
+  }
+  .section2 .section2-img__01 {
+    margin-top: 40px;
+  }
+  .section2 .section2-img__02 {
+    max-width: 1000px;
+    width: 85%;
+  }
+  .section3 .section3-img__01 {
+    padding-top: 40px;
+  }
+  .section3 .section3-img__02 {
+    width: 55%;
+  }
+  .section4 {
+    margin-bottom: 56px;
+  }
+  .section4 .section4-img__01 {
+    margin-top: 40px;
+  }
+  .section4 .section4-img__02 {
+    width: 75%;
+  }
+  .section5 .section5-img__01 {
+    margin-top: 16px;
+  }
+  .section5 ul.section5-question li {
+    width: 75%;
+    font-size: 20px;
+  }
+  .section5 ul.section5-question li.section5-question__q img {
+    width: 36px;
+    height: 50px;
+  }
+  .section5 ul.section5-question li.section5-question__a img {
+    width: 39px;
+    height: 42px;
+  }
+  .section5 ul.section5-question::before {
+    width: 75%;
+  }
+  .section5 ul.section5-question:last-child::after {
+    width: 75%;
+  }
+  .section6 iframe {
+    margin: 40px auto;
+    width: 70%;
+    height: 350px;
+  }
+  .section6 .section6-address {
+    width: 75%;
+    margin: auto;
+  }
+  .section6 .section6-address h2 {
+    font-size: 26px;
+  }
+  .section6 .section6-address p {
+    font-size: 18px;
+  }
+}
