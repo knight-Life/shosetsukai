@@ -1,18 +1,38 @@
 @media screen and (max-width:479px) {
   .section-inquiry {
     .section-inquiry__tel{
-      margin-bottom: 12px;
+      margin-bottom: 8px;
       width: 85%;
+      flex-direction: column;
+
       img.section-inquiry__contact {
-        margin-right: 15px;
+        width: 80%;
+        max-width: 340px;
+        margin: unset;
+        margin-right: 0;
+        margin-bottom: 8px;
+
+        &.responsive-PC{
+          display: none;
+        }
+        &.responsive-SP{
+          display: block;
+        }
       }
     }
     .section-inquiry__btn {
       width: 85%;
     }
     .section-inquiry__link {
-      width: 80%;
+      width: 85%;
       margin-top: 8px;
+    }
+
+    img.section-inquiry__number {
+      width: 60%;
+      max-width: 610px;
+      margin: unset;
+      margin: auto;
     }
   }
 
@@ -28,6 +48,7 @@
       margin-top: 12px;
       font-size: 14px;
       line-height: 1.7em;
+      text-align: justify;
     }
   }
 

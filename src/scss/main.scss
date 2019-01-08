@@ -1,3 +1,12 @@
+.responsive-SP {
+  display: none;
+}
+
+.new-line {
+  display: inline-block;
+  margin-top: 8px;
+}
+
 .section-inquiry {
   background-color: #D4ECEA;
   padding: 2%;
@@ -42,10 +51,6 @@
     margin: auto;
     margin-top: 16px;
     cursor: pointer;
-
-    img{
-      padding: 5px;
-    }
   }
 }
 
