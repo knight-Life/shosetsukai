@@ -168,11 +168,35 @@
 @media screen and (min-width:480px) and (max-width:599px) {
   .section-inquiry {
     .section-inquiry__tel{
-      margin-bottom: 12px;
+      margin-bottom: 8px;
+      width: 85%;
+      flex-direction: column;
+
+      img.section-inquiry__contact {
+        width: 80%;
+        max-width: 374px;
+        margin: unset;
+        margin-right: 0;
+        margin-bottom: 12px;
+
+        &.responsive-PC{
+          display: none;
+        }
+        &.responsive-SP{
+          display: block;
+        }
+      }
     }
     .section-inquiry__link {
-      width: 75%;
+      width: 80%;
       margin-top: 8px;
+    }
+
+    img.section-inquiry__number {
+      width: 60%;
+      max-width: 610px;
+      margin: unset;
+      margin: auto;
     }
   }
 
@@ -278,7 +302,39 @@
 @media screen and (min-width:600px) and (max-width:959px) {
   .section-inquiry {
     .section-inquiry__link {
-      width: 65%;
+      // width: 65%;
+    }
+
+    .section-inquiry__tel{
+      margin-bottom: 8px;
+      width: 85%;
+      flex-direction: column;
+
+      img.section-inquiry__contact {
+        width: 80%;
+        max-width: 476px;
+        margin: unset;
+        margin-right: 0;
+        margin-bottom: 12px;
+
+        &.responsive-PC{
+          display: none;
+        }
+        &.responsive-SP{
+          display: block;
+        }
+      }
+    }
+    .section-inquiry__link {
+      width: 80%;
+      margin-top: 8px;
+    }
+
+    img.section-inquiry__number {
+      width: 60%;
+      max-width: 610px;
+      margin: unset;
+      margin: auto;
     }
   }
 

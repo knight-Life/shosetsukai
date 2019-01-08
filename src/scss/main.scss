@@ -401,19 +401,30 @@ textarea#msg {
 }
 
 .mail-form__name,.mail-form__mailAdrrs {
-  margin: 24px auto;
+  margin: 32px auto;
 }
 
-.button button {
-  width: 80%;
-  padding: 8px;
+.button {
+  margin: 32px auto;
+  button {
+    width: 80%;
+    padding: 8px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: block;
+    background-color: #fff;
+    font-size: 16px;
+    color: #888;
+  }
+}
+h2.mail-complete {
+  font-size: 24px;
   margin: 16px auto;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  display: block;
-  background-color: #fff;
-  font-size: 16px;
-  color: #888;
+}
+
+.footer{
+  margin-top: 30vh;
 }
 /*メールフォームここまで*/
 

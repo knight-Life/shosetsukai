@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 .responsive-SP {
   display: none;
 }
@@ -414,19 +414,32 @@ textarea#msg {
 }
 
 .mail-form__name, .mail-form__mailAdrrs {
-  margin: 24px auto;
+  margin: 32px auto;
+}
+
+.button {
+  margin: 32px auto;
 }
 
 .button button {
   width: 80%;
   padding: 8px;
-  margin: 16px auto;
+  margin: auto;
   border: 1px solid #ccc;
   border-radius: 3px;
   display: block;
   background-color: #fff;
   font-size: 16px;
   color: #888;
+}
+
+h2.mail-complete {
+  font-size: 24px;
+  margin: 16px auto;
+}
+
+.footer {
+  margin-top: 30vh;
 }
 
 /*メールフォームここまで*/
@@ -577,11 +590,36 @@ textarea#msg {
 
 @media screen and (min-width: 480px) and (max-width: 599px) {
   .section-inquiry .section-inquiry__tel {
+    margin-bottom: 8px;
+    width: 85%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-inquiry .section-inquiry__tel img.section-inquiry__contact {
+    width: 80%;
+    max-width: 374px;
+    margin: unset;
+    margin-right: 0;
     margin-bottom: 12px;
   }
+  .section-inquiry .section-inquiry__tel img.section-inquiry__contact.responsive-PC {
+    display: none;
+  }
+  .section-inquiry .section-inquiry__tel img.section-inquiry__contact.responsive-SP {
+    display: block;
+  }
   .section-inquiry .section-inquiry__link {
-    width: 75%;
+    width: 80%;
     margin-top: 8px;
+  }
+  .section-inquiry img.section-inquiry__number {
+    width: 60%;
+    max-width: 610px;
+    margin: unset;
+    margin: auto;
   }
   .section1 .section1-caption {
     position: relative;
@@ -663,8 +701,37 @@ textarea#msg {
 }
 
 @media screen and (min-width: 600px) and (max-width: 959px) {
+  .section-inquiry .section-inquiry__tel {
+    margin-bottom: 8px;
+    width: 85%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-inquiry .section-inquiry__tel img.section-inquiry__contact {
+    width: 80%;
+    max-width: 476px;
+    margin: unset;
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+  .section-inquiry .section-inquiry__tel img.section-inquiry__contact.responsive-PC {
+    display: none;
+  }
+  .section-inquiry .section-inquiry__tel img.section-inquiry__contact.responsive-SP {
+    display: block;
+  }
   .section-inquiry .section-inquiry__link {
-    width: 65%;
+    width: 80%;
+    margin-top: 8px;
+  }
+  .section-inquiry img.section-inquiry__number {
+    width: 60%;
+    max-width: 610px;
+    margin: unset;
+    margin: auto;
   }
   .section1 p {
     width: 90%;
